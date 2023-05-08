@@ -1,4 +1,4 @@
-import { NewsItem } from "../components/Newsletter";
+import NewsItem from "../components/Newsletter";
 import { useState } from "react";
 
 const NewsLetter = () => {

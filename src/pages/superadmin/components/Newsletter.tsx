@@ -33,4 +33,4 @@ const NewsItem: FC<PropsNewsItem> = ({ children }) => {
   );
 };
 
-export { NewsItem };
+export default NewsItem;
