@@ -1,14 +1,14 @@
 /* eslint-disable */
 import { SalesChoose, SalesTb } from "../components/Sales";
-import Logo from "../logo/logo";
+// import Logo from "../logo/logo";
 
 const Sales = () => {
   return (
     <div className="p-4 mx-8">
-      <div className="pl-4">
-        <Logo />
+      <div className="w-[60px]  xs:w-[60px] sm:w-[60px] md:w-[80px] lg:w-[100px] xl:w-[120px] mx-12 my-6">
+        <img src={"/assets/images/logo.png"} alt="logo page" />
       </div>
-      <div className="px-24 mb-12 flex grid-cols-12 gap-16 justify-center">
+      <div className="px-24 mb-12 flex grid-cols-2 gap-4 md:gap-16 justify-center">
         <SalesChoose children={{ sale_name: "Einnahme", price: 50000 }} />
         <SalesChoose children={{ sale_name: "Materialkosten", price: 50000 }} />
         <SalesChoose

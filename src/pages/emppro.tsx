@@ -60,8 +60,8 @@ const Emppro = () => {
           </svg>
         </button>
       </div>
-      <div className="flex mx-12 my-8">
-        <div className="mr-12 grid gap-4">
+      <div className="flex flex-col sm:flex-col md:flex-row justify-between gap-4 md:gap-16 lg:gap-16 mx-20 my-6">
+        <div className="gap-4 flex flex-col items-center">
           <div className="px-12 py-8 w-[350px] h-[450px] bg-white rounded-[16px] shadow-lg">
             <div className="flex justify-between mb-2">
               <button>
@@ -145,10 +145,10 @@ const Emppro = () => {
             </div>
           </div>
         </div>
-        <div className="w-full">
-          <div className="flex gap-4 mb-12 justify-between">
-            <div className="flex gap-4">
-              <div className="w-[300px] flex justify-center items-center">
+        <div className="w-full flex flex-col items-center md:items-stretch lg:items-stretch">
+          <div className="flex gap-4 mb-12 flex-col md:flex-row md:justify-between lg:justify-between">
+            <div className="flex gap-4 flex-col md:flex-row">
+              <div className="sm:w-[200px] md:w-[300px] flex justify-center items-center">
                 <Datepicker
                   options={options}
                   onChange={handleChange}
@@ -156,7 +156,7 @@ const Emppro = () => {
                   setShow={handleClose}
                 />
               </div>
-              <div className="w-[300px] flex justify-center items-center">
+              <div className="sm:w-[200px] md:w-[300px] flex justify-center items-center">
                 <Datepicker
                   options={options}
                   onChange={handleChange1}

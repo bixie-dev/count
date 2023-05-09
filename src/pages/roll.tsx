@@ -1,16 +1,16 @@
 /* eslint-disable */
 
-import Logo from "../logo/logo";
+// import Logo from "../logo/logo";
 import { RoleTb } from "../components/Roll";
 import { RoleDs } from "../components/Roll";
 
 const Roll = () => {
   return (
     <div className="p-4 mx-8">
-      <div className="pl-4">
-        <Logo />
+      <div className="w-[60px]  xs:w-[60px] sm:w-[60px] md:w-[80px] lg:w-[100px] xl:w-[120px] mx-12 my-6">
+        <img src={"/assets/images/logo.png"} alt="logo page" />
       </div>
-      <div className="flex grid-cols-2 gap-24 px-24 h-[550px]">
+      <div className="flex flex-col md:flex-row gap-16 px-24 h-[550px]">
         <div className="p-8 w-full h-full rounded-[24px] bg-white drop-shadow-lg">
           <table className="w-full">
             <thead>

@@ -28,6 +28,7 @@
   transition: 0.3s;
   width: calc(50% - 5px);
   height: 50px;
+  font-weight: bold;
 }
 
 .toggleTabBox .cover-label {
@@ -38,6 +39,7 @@
   height: calc(100% - 10px);
   background: white;
   text-align: center;
+  font-weight: bold;
   color: #4269e1;
   font-size: 16px;
   transition: 0.3s;
@@ -82,4 +84,12 @@
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
+}
+
+.shadow-red {
+  box-shadow: 12px 24px 48px #ff000050;
+}
+
+.shadow-green {
+  box-shadow: 12px 24px 48px #42ff0050;
 }

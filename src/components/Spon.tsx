@@ -17,7 +17,7 @@ interface PropsTb extends HTMLProps<HTMLInputElement> {
 const SponLocation: FC<PropsChildren> = ({ children }) => {
   return (
     <>
-      <div className="font-[500] text-[12px] p-2 border border-[#4269E1] rounded-[8px] shadow-md flex grid grid-cols-9 items-center">
+      <div className="font-[500] text-[12px] p-2 border border-slate-300 rounded-[8px] grid grid-cols-9 items-center">
         <span className="col-span-7 pl-4">{children}</span>
         <span className="col-span-1">
           <svg

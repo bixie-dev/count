@@ -43,7 +43,7 @@ const Chat = () => {
           </svg>
         </button>
       </div>
-      <div className="flex justify-end mt-16 mr-24">
+      <div className="flex justify-end mt-16 mx-24">
         <div className="p-8 text-white text-[20px] bg-[#4269E1] rounded-[48px] rounded-br-none w-[500px] h-[120px] flex justify-center items-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
         </div>
